@@ -1,0 +1,44 @@
+# -------------------------------
+# Node.js dependencies
+node_modules/
+
+# Output folders
+images/
+labels/
+runs/
+models/
+
+# Compiled model weights and data
+*.pt
+*.pkl
+*.h5
+*.csv
+*.xlsx
+*.zip
+*.mp4
+*.jpg
+*.png
+*.pdf
+*.exe
+
+# Python bytecode/cache
+__pycache__/
+*.pyc
+
+# OS-specific system files
+.DS_Store
+Thumbs.db
+
+# Ignore large YOLO weights (if needed, keep specific versions manually)
+yolo11n.pt
+yolov8m.pt
+
+# Ignore dataset archives
+dataset.zip
+
+# Optional: ignore local config or secrets (customize as needed)
+*.env
+*.log
+
+# Optional: ignore README if not needed (comment out if you want to track it)
+# README.md
